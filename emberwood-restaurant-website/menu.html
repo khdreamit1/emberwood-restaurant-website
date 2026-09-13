@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Emberwood Restaurant</title>
+<meta name="description" content="Browse Emberwood's full menu across breakfast, lunch, drinks, and desserts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">Ember<span>wood</span></a>
+      <div class="nav-links">
+          <a href="index.html" class="">Home</a>
+          <a href="about.html" class="">About Us</a>
+          <a href="menu.html" class="active">Menu</a>
+          <a href="banquet.html" class="">Banquet</a>
+          <a href="catering.html" class="">Catering</a>
+          <a href="gallery.html" class="">Gallery</a>
+          <a href="contact.html" class="">Contact</a>
+      </div>
+      <div class="nav-cta-wrap">
+        <a href="tel:+15551234567" class="btn-outline btn" style="padding:11px 22px;font-size:0.82rem;">(555) 123-4567</a>
+        <a href="booking.html" class="btn btn-primary">Book a Table</a>
+        <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="menu.html">Menu</a>
+    <a href="banquet.html">Banquet</a>
+    <a href="catering.html">Catering</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="booking.html" class="btn btn-primary">Book a Table</a>
+  </div>
+
+
+<section class="page-hero">
+  <div class="hero-media"><img src="https://loremflickr.com/1920/1100/elegant,dining,table,restaurant,food/all?lock=300" alt="Beautifully set dining table"></div>
+  <div class="container hero-content">
+    <span class="eyebrow">Our Menu</span>
+    <h1>Good Food, Beautifully Prepared</h1>
+    <p class="hero-sub">Explore our selection of thoughtfully prepared dishes, refreshing drinks, and delicious desserts made for every occasion.</p>
+    <p class="breadcrumb"><a href="index.html">Home</a> / Menu</p>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="container">
+    <div class="menu-filters">
+      <button class="mfilter-btn active" data-filter="all">All</button>
+      <button class="mfilter-btn" data-filter="breakfast">Breakfast</button>
+      <button class="mfilter-btn" data-filter="lunch">Lunch</button>
+      <button class="mfilter-btn" data-filter="drinks">Drinks</button>
+      <button class="mfilter-btn" data-filter="desserts">Desserts</button>
+    </div>
+    <div class="dish-grid">
+      
+      <article class="menu-item show dish-card" data-category="breakfast">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/eggs,bacon,breakfast,plate/all?lock=301" alt="Classic American Breakfast"></div>
+        <div class="dish-title-row"><h3>Classic American Breakfast</h3><span class="dish-price">$16</span></div>
+        <p class="dish-desc">Two eggs, bacon, toast, roasted potatoes and seasonal fruit.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="breakfast">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/belgian,waffles,berries/all?lock=302" alt="Belgian Waffles"></div>
+        <div class="dish-title-row"><h3>Belgian Waffles</h3><span class="dish-price">$14</span></div>
+        <p class="dish-desc">Fresh waffles served with berries, whipped cream and maple syrup.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="breakfast">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/avocado,toast,poached,egg/all?lock=303" alt="Avocado Toast"></div>
+        <div class="dish-title-row"><h3>Avocado Toast</h3><span class="dish-price">$15</span></div>
+        <p class="dish-desc">Smashed avocado, poached eggs, herbs and toasted sourdough.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="breakfast">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/pancakes,berries,breakfast/all?lock=304" alt="Buttermilk Pancakes"></div>
+        <div class="dish-title-row"><h3>Buttermilk Pancakes</h3><span class="dish-price">$13</span></div>
+        <p class="dish-desc">Fluffy pancakes served with berries, butter and maple syrup.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="breakfast">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/breakfast,burrito,eggs/all?lock=305" alt="Breakfast Burrito"></div>
+        <div class="dish-title-row"><h3>Breakfast Burrito</h3><span class="dish-price">$15</span></div>
+        <p class="dish-desc">Scrambled eggs, cheese, potatoes and vegetables in a warm tortilla.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="breakfast">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/eggs,benedict,hollandaise/all?lock=306" alt="Eggs Benedict"></div>
+        <div class="dish-title-row"><h3>Eggs Benedict</h3><span class="dish-price">$17</span></div>
+        <p class="dish-desc">Poached eggs, Canadian bacon and hollandaise over English muffins.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="lunch">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/grilled,chicken,sandwich/all?lock=307" alt="Grilled Chicken Sandwich"></div>
+        <div class="dish-title-row"><h3>Grilled Chicken Sandwich</h3><span class="dish-price">$17</span></div>
+        <p class="dish-desc">Grilled chicken breast, lettuce, tomato, cheese and house sauce.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="lunch">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/gourmet,cheeseburger,plated/all?lock=308" alt="Classic Cheeseburger"></div>
+        <div class="dish-title-row"><h3>Classic Cheeseburger</h3><span class="dish-price">$18</span></div>
+        <p class="dish-desc">Premium beef patty, cheddar, lettuce, tomato and house dressing.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="lunch">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/grilled,ribeye,steak,plated/all?lock=309" alt="Grilled Ribeye Steak"></div>
+        <div class="dish-title-row"><h3>Grilled Ribeye Steak</h3><span class="dish-price">$38</span></div>
+        <p class="dish-desc">Tender grilled ribeye with seasonal vegetables and house potatoes.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="lunch">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/herb,crusted,salmon,plated/all?lock=310" alt="Herb-Crusted Salmon"></div>
+        <div class="dish-title-row"><h3>Herb-Crusted Salmon</h3><span class="dish-price">$29</span></div>
+        <p class="dish-desc">Fresh Atlantic salmon with herbs, lemon butter and vegetables.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="lunch">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/chicken,caesar,salad/all?lock=311" alt="Chicken Caesar Salad"></div>
+        <div class="dish-title-row"><h3>Chicken Caesar Salad</h3><span class="dish-price">$16</span></div>
+        <p class="dish-desc">Crisp romaine, grilled chicken, parmesan and Caesar dressing.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="lunch">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/creamy,truffle,pasta,plated/all?lock=312" alt="Truffle Cream Pasta"></div>
+        <div class="dish-title-row"><h3>Truffle Cream Pasta</h3><span class="dish-price">$24</span></div>
+        <p class="dish-desc">Creamy pasta finished with parmesan and fresh herbs.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="drinks">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/fresh,lemonade,glass/all?lock=313" alt="Fresh Lemonade"></div>
+        <div class="dish-title-row"><h3>Fresh Lemonade</h3><span class="dish-price">$6</span></div>
+        <p class="dish-desc">House-pressed lemonade, lightly sweetened.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="drinks">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/iced,tea,glass/all?lock=314" alt="Iced Tea"></div>
+        <div class="dish-title-row"><h3>Iced Tea</h3><span class="dish-price">$5</span></div>
+        <p class="dish-desc">Chilled black tea served over ice.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="drinks">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/orange,juice,glass/all?lock=315" alt="Fresh Orange Juice"></div>
+        <div class="dish-title-row"><h3>Fresh Orange Juice</h3><span class="dish-price">$6</span></div>
+        <p class="dish-desc">Cold-pressed orange juice.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="drinks">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/coffee,cup,cafe/all?lock=316" alt="Classic Coffee"></div>
+        <div class="dish-title-row"><h3>Classic Coffee</h3><span class="dish-price">$5</span></div>
+        <p class="dish-desc">Freshly brewed house blend coffee.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="drinks">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/cappuccino,coffee,cafe/all?lock=317" alt="Cappuccino"></div>
+        <div class="dish-title-row"><h3>Cappuccino</h3><span class="dish-price">$6</span></div>
+        <p class="dish-desc">Espresso with steamed milk and foam.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="drinks">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/mocktail,drink,glass/all?lock=318" alt="Signature Mocktail"></div>
+        <div class="dish-title-row"><h3>Signature Mocktail</h3><span class="dish-price">$9</span></div>
+        <p class="dish-desc">A house-crafted, non-alcoholic seasonal mocktail.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="drinks">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/sparkling,water,glass/all?lock=319" alt="Sparkling Water"></div>
+        <div class="dish-title-row"><h3>Sparkling Water</h3><span class="dish-price">$4</span></div>
+        <p class="dish-desc">Chilled sparkling water with citrus.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="desserts">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/chocolate,lava,cake,dessert/all?lock=320" alt="Chocolate Lava Cake"></div>
+        <div class="dish-title-row"><h3>Chocolate Lava Cake</h3><span class="dish-price">$11</span></div>
+        <p class="dish-desc">Warm chocolate cake with a molten center and vanilla ice cream.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="desserts">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/cheesecake,berries,dessert/all?lock=321" alt="New York Cheesecake"></div>
+        <div class="dish-title-row"><h3>New York Cheesecake</h3><span class="dish-price">$10</span></div>
+        <p class="dish-desc">Classic creamy cheesecake with seasonal berries.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="desserts">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/tiramisu,dessert,plated/all?lock=322" alt="Tiramisu"></div>
+        <div class="dish-title-row"><h3>Tiramisu</h3><span class="dish-price">$10</span></div>
+        <p class="dish-desc">Traditional Italian-style tiramisu with espresso and mascarpone.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="desserts">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/apple,crumble,dessert/all?lock=323" alt="Apple Crumble"></div>
+        <div class="dish-title-row"><h3>Apple Crumble</h3><span class="dish-price">$9</span></div>
+        <p class="dish-desc">Warm baked apples with cinnamon crumble and vanilla ice cream.</p>
+      </article>
+
+      <article class="menu-item show dish-card" data-category="desserts">
+        <div class="dish-media"><img src="https://loremflickr.com/700/560/ice,cream,scoop,dessert/all?lock=324" alt="Ice Cream Selection"></div>
+        <div class="dish-title-row"><h3>Ice Cream Selection</h3><span class="dish-price">$7</span></div>
+        <p class="dish-desc">A selection of premium ice cream flavors.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cream reveal">
+  <div class="container">
+    <span class="eyebrow">Chef's Special</span>
+    <h2 style="margin-bottom:40px;">Today's Signature</h2>
+    <div class="chef-special">
+      <img src="https://loremflickr.com/900/800/signature,steak,plated,gourmet/all?lock=325" alt="Chef's signature steak">
+      <div class="chef-special-copy">
+        <span class="chef-badge">Chef's Choice</span>
+        <h3>Chef's Signature Steak</h3>
+        <p>Perfectly grilled premium steak served with roasted vegetables and our signature sauce.</p>
+        <span class="chef-price">$42</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="container">
+    <div class="split" style="align-items:center;">
+      <div>
+        <span class="eyebrow">Take It With You</span>
+        <h2>Prefer a Printable Menu?</h2>
+        <p class="body-copy">Download our complete menu and explore our full selection before your visit.</p>
+        <div style="margin-top:30px;"><a href="#" class="btn btn-primary">Download Full Menu</a></div>
+        <p style="margin-top:14px; font-size:0.82rem; color:var(--brown);">Placeholder link &mdash; the downloadable PDF will be added once provided by the restaurant.</p>
+      </div>
+      <div class="split-media short">
+        <img src="https://loremflickr.com/1000/760/restaurant,menu,table,elegant/all?lock=326" alt="Printed restaurant menu on a table">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <img src="https://loremflickr.com/1920/1000/restaurant,dinner,celebration,guests/all?lock=327" alt="Guests enjoying dinner">
+  <div class="container inner">
+    <h2>Ready to Join Us?</h2>
+    <p>Reserve your table and experience great food, warm hospitality, and an unforgettable dining experience.</p>
+    <div class="hero-actions">
+      <a href="booking.html" class="btn btn-primary">Book a Table</a>
+      <a href="contact.html" class="btn btn-outline on-dark">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="footer-logo">Ember<span>wood</span></a>
+          <p>A modern American restaurant devoted to thoughtful ingredients, warm hospitality, and evenings worth remembering. Currently welcoming guests by reservation as we prepare to open our doors.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="banquet.html">Banquet</a>
+          <a href="catering.html">Catering</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <p>128 Magnolia Street<br>Charleston, SC 29401</p>
+          <a href="tel:+15551234567">(555) 123-4567</a>
+          <a href="mailto:hello@emberwoodrestaurant.com">hello@emberwoodrestaurant.com</a>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <p>Mon &ndash; Thu &nbsp; 11:00 AM &ndash; 9:00 PM</p>
+          <p>Fri &ndash; Sat &nbsp; 11:00 AM &ndash; 10:00 PM</p>
+          <p>Sunday &nbsp; 12:00 PM &ndash; 8:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Emberwood Restaurant. All rights reserved. <em style="opacity:.7; font-style:normal;">(placeholder details &mdash; to be replaced with client information)</em></span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" aria-label="Scroll to top">&uarr;</button>
+  <div class="lightbox"><button class="lightbox-close">Close &times;</button><img src="" alt=""></div>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
